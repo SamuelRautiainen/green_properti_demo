@@ -1,0 +1,66 @@
+{
+  "materials": {
+    "gyproc": {
+      "name": "Gyproc-seinä",
+      "co2PerM2": 20,
+      "unit": "kg/m²",
+      "description": "Kipsilevyseinä"
+    },
+    "movia": {
+      "name": "MOVIA-väliseinä",
+      "co2PerM2": 5,
+      "unit": "kg/m²",
+      "description": "Siirrettävä väliseinäjärjestelmä"
+    },
+    "glass": {
+      "name": "Lasiseinä",
+      "co2PerM2": 30,
+      "unit": "kg/m²",
+      "description": "Lasiseinäelementti"
+    },
+    "door": {
+      "name": "Ovi",
+      "co2PerPiece": 25,
+      "unit": "kg/kpl",
+      "description": "Sisäovi"
+    },
+    "floor": {
+      "name": "Lattia",
+      "co2PerM2": 10,
+      "unit": "kg/m²",
+      "description": "Lattiapäällyste"
+    }
+  },
+  "reuseSavings": {
+    "gyproc_to_movia": {
+      "from": "Gyproc",
+      "to": "MOVIA",
+      "savingsPerM2": 15,
+      "description": "Gyproc puretaan, korvataan MOVIA:lla"
+    },
+    "reuse_glass": {
+      "material": "Lasiseinä",
+      "savingsPerM2": 25,
+      "description": "Varastosta käytetty lasiseinä"
+    },
+    "reuse_door": {
+      "material": "Ovi",
+      "savingsPerPiece": 20,
+      "description": "Varastosta käytetty ovi"
+    }
+  },
+  "matching": {
+    "tolerances": {
+      "width": 50,
+      "height": 20
+    },
+    "scoring": {
+      "dimensionMatch": 0.4,
+      "colorMatch": 0.2,
+      "rwMatch": 0.3,
+      "quantityMatch": 0.1
+    }
+  }
+}
+
+

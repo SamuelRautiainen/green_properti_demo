@@ -1,0 +1,99 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "propertyId": "1",
+      "propertyName": "Paloheinä Business Park",
+      "name": "5. kerros Wing A",
+      "floor": "5",
+      "wing": "A",
+      "status": "active",
+      "demolitionCO2": 1250,
+      "wasteCost": 4200,
+      "reusePercentage": 65,
+      "startDate": "2024-09-15",
+      "estimatedCompletion": "2025-02-28",
+      "elements": [
+        { "id": "e1", "type": "Lasiseinä", "widthMm": 1200, "heightMm": 3000, "quantity": 12, "status": "demolish" },
+        { "id": "e2", "type": "Umpipaneeli", "widthMm": 1200, "heightMm": 3000, "quantity": 9, "status": "reuse" },
+        { "id": "e3", "type": "Puuovi", "widthMm": 900, "heightMm": 2100, "quantity": 8, "status": "demolish" },
+        { "id": "e4", "type": "Liukuovi", "widthMm": 900, "heightMm": 2100, "quantity": 13, "status": "keep" },
+        { "id": "e5", "type": "Aukko-ovi", "widthMm": 900, "heightMm": 2100, "quantity": 13, "status": "reuse" }
+      ]
+    },
+    {
+      "id": "2",
+      "propertyId": "1",
+      "propertyName": "Paloheinä Business Park",
+      "name": "3. kerros Remontti",
+      "floor": "3",
+      "wing": "B",
+      "status": "planning",
+      "demolitionCO2": 890,
+      "wasteCost": 2800,
+      "reusePercentage": 72,
+      "startDate": "2025-01-10",
+      "estimatedCompletion": "2025-04-30",
+      "elements": [
+        { "id": "e6", "type": "Lasiseinä", "widthMm": 1200, "heightMm": 2800, "quantity": 8, "status": "demolish" },
+        { "id": "e7", "type": "Väliseinä", "widthMm": 1000, "heightMm": 2800, "quantity": 15, "status": "reuse" }
+      ]
+    },
+    {
+      "id": "3",
+      "propertyId": "2",
+      "propertyName": "Vuosaari Technology Center",
+      "name": "Aula muutos",
+      "floor": "1",
+      "wing": "",
+      "status": "active",
+      "demolitionCO2": 450,
+      "wasteCost": 1500,
+      "reusePercentage": 55,
+      "startDate": "2024-11-01",
+      "estimatedCompletion": "2025-01-15",
+      "elements": [
+        { "id": "e8", "type": "Lasiseinä", "widthMm": 1500, "heightMm": 3200, "quantity": 6, "status": "reuse" },
+        { "id": "e9", "type": "Lasiovi", "widthMm": 1000, "heightMm": 2200, "quantity": 4, "status": "demolish" }
+      ]
+    },
+    {
+      "id": "4",
+      "propertyId": "3",
+      "propertyName": "Viikki Office Campus",
+      "name": "2. kerros Toimisto",
+      "floor": "2",
+      "wing": "C",
+      "status": "completed",
+      "demolitionCO2": 680,
+      "wasteCost": 2100,
+      "reusePercentage": 68,
+      "startDate": "2024-06-01",
+      "estimatedCompletion": "2024-09-30",
+      "elements": [
+        { "id": "e10", "type": "Gyproc-seinä", "widthMm": 1200, "heightMm": 2700, "quantity": 20, "status": "demolish" },
+        { "id": "e11", "type": "Puuovi", "widthMm": 900, "heightMm": 2100, "quantity": 6, "status": "reuse" }
+      ]
+    },
+    {
+      "id": "5",
+      "propertyId": "4",
+      "propertyName": "Pasila Tower",
+      "name": "Kokoustilat 8. krs",
+      "floor": "8",
+      "wing": "",
+      "status": "active",
+      "demolitionCO2": 920,
+      "wasteCost": 3100,
+      "reusePercentage": 48,
+      "startDate": "2024-10-01",
+      "estimatedCompletion": "2025-03-15",
+      "elements": [
+        { "id": "e12", "type": "Lasiseinä", "widthMm": 1400, "heightMm": 3000, "quantity": 10, "status": "demolish" },
+        { "id": "e13", "type": "Akustiikkaseinä", "widthMm": 1200, "heightMm": 3000, "quantity": 8, "status": "keep" }
+      ]
+    }
+  ]
+}
+
+

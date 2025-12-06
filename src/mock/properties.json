@@ -1,0 +1,90 @@
+{
+  "properties": [
+    {
+      "id": "1",
+      "name": "Paloheinä Business Park",
+      "location": "Helsinki",
+      "address": "Pakilantie 91, 00670 Helsinki",
+      "floors": 6,
+      "totalArea": 12500,
+      "occupancyRate": 87,
+      "renovationCost": 464900,
+      "reusePercentage": 47,
+      "co2Footprint": 52.5,
+      "activeProjects": 2,
+      "inventoryCount": 85
+    },
+    {
+      "id": "2",
+      "name": "Vuosaari Technology Center",
+      "location": "Helsinki",
+      "address": "Tyynylaavantie 12, 00980 Helsinki",
+      "floors": 4,
+      "totalArea": 8200,
+      "occupancyRate": 92,
+      "renovationCost": 332500,
+      "reusePercentage": 33,
+      "co2Footprint": 40.1,
+      "activeProjects": 1,
+      "inventoryCount": 62
+    },
+    {
+      "id": "3",
+      "name": "Viikki Office Campus",
+      "location": "Oulu",
+      "address": "Viikinkaari 4, 00790 Helsinki",
+      "floors": 5,
+      "totalArea": 9800,
+      "occupancyRate": 78,
+      "renovationCost": 273100,
+      "reusePercentage": 57,
+      "co2Footprint": 24.8,
+      "activeProjects": 1,
+      "inventoryCount": 94
+    },
+    {
+      "id": "4",
+      "name": "Pasila Tower",
+      "location": "Helsinki",
+      "address": "Pasilankatu 2, 00240 Helsinki",
+      "floors": 12,
+      "totalArea": 22000,
+      "occupancyRate": 95,
+      "renovationCost": 580000,
+      "reusePercentage": 41,
+      "co2Footprint": 38.2,
+      "activeProjects": 3,
+      "inventoryCount": 120
+    },
+    {
+      "id": "5",
+      "name": "Kalasatama Hub",
+      "location": "Helsinki",
+      "address": "Työpajankatu 8, 00580 Helsinki",
+      "floors": 8,
+      "totalArea": 15600,
+      "occupancyRate": 82,
+      "renovationCost": 425000,
+      "reusePercentage": 52,
+      "co2Footprint": 31.5,
+      "activeProjects": 2,
+      "inventoryCount": 78
+    },
+    {
+      "id": "6",
+      "name": "Herttoniemi Business Center",
+      "location": "Helsinki",
+      "address": "Herttoniemenkatu 12, 00810 Helsinki",
+      "floors": 5,
+      "totalArea": 7400,
+      "occupancyRate": 88,
+      "renovationCost": 198000,
+      "reusePercentage": 62,
+      "co2Footprint": 28.9,
+      "activeProjects": 1,
+      "inventoryCount": 45
+    }
+  ]
+}
+
+

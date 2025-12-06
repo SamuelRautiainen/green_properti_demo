@@ -1,0 +1,212 @@
+{
+  "summary": {
+    "glassPartitions": { "count": 6, "size": "1200 mm" },
+    "solidPartitions": { "count": 3, "size": "" },
+    "solidDoors": { "count": 3, "size": "" },
+    "glazedDoors": { "count": 2, "size": "" }
+  },
+  "items": [
+    {
+      "id": "inv-001",
+      "propertyId": "1",
+      "propertyName": "Paloheinä Business Park",
+      "category": "glass",
+      "subtype": "Lasi Rw37",
+      "description": "Runko: Viilupintainen puu",
+      "widthMm": 1200,
+      "heightMm": 3000,
+      "color": "Antrasiitti",
+      "frameDepthMm": 92,
+      "rwClass": "Rw37",
+      "quantity": 6,
+      "co2Savings": 180,
+      "status": "available"
+    },
+    {
+      "id": "inv-002",
+      "propertyId": "2",
+      "propertyName": "Vuosaari Technology Center",
+      "category": "solid",
+      "subtype": "Gyproc 95",
+      "description": "Gyproc 95mm väliseinä",
+      "widthMm": 1200,
+      "heightMm": 3000,
+      "color": "Harmaa",
+      "frameDepthMm": 95,
+      "rwClass": "",
+      "quantity": 3,
+      "co2Savings": 60,
+      "status": "available"
+    },
+    {
+      "id": "inv-003",
+      "propertyId": "1",
+      "propertyName": "Paloheinä Business Park",
+      "category": "door",
+      "subtype": "Umpiovi",
+      "description": "Runko: Maalattu puu / Rw37 dB",
+      "widthMm": 900,
+      "heightMm": 2100,
+      "color": "Valkoinen",
+      "frameDepthMm": 92,
+      "rwClass": "Rw37",
+      "doorKind": "solid",
+      "handing": "right",
+      "quantity": 1,
+      "co2Savings": 25,
+      "status": "available"
+    },
+    {
+      "id": "inv-004",
+      "propertyId": "3",
+      "propertyName": "Viikki Office Campus",
+      "category": "door",
+      "subtype": "Umpiovi",
+      "description": "Runko: Maalattu puu / Rw42 dB",
+      "widthMm": 1000,
+      "heightMm": 2100,
+      "color": "Valkoinen",
+      "frameDepthMm": 120,
+      "rwClass": "Rw42",
+      "doorKind": "solid",
+      "handing": "left",
+      "quantity": 2,
+      "co2Savings": 50,
+      "status": "available"
+    },
+    {
+      "id": "inv-005",
+      "propertyId": "3",
+      "propertyName": "Viikki Office Campus",
+      "category": "door",
+      "subtype": "Lasiovi",
+      "description": "Runko: Anodisoitu alumiini / Rw40 dB",
+      "widthMm": 1000,
+      "heightMm": 2100,
+      "color": "Hopea",
+      "frameDepthMm": 92,
+      "rwClass": "Rw40",
+      "doorKind": "with_glass",
+      "handing": "universal",
+      "quantity": 2,
+      "co2Savings": 60,
+      "status": "reserved"
+    },
+    {
+      "id": "inv-006",
+      "propertyId": "4",
+      "propertyName": "Pasila Tower",
+      "category": "glass",
+      "subtype": "Lasi Rw37",
+      "description": "Runko: Alumiini",
+      "widthMm": 1200,
+      "heightMm": 3000,
+      "color": "Musta",
+      "frameDepthMm": 92,
+      "rwClass": "Rw37",
+      "quantity": 8,
+      "co2Savings": 240,
+      "status": "available"
+    },
+    {
+      "id": "inv-007",
+      "propertyId": "5",
+      "propertyName": "Kalasatama Hub",
+      "category": "partition",
+      "subtype": "MOVIA",
+      "description": "MOVIA väliseinä",
+      "widthMm": 1200,
+      "heightMm": 3000,
+      "color": "Valkoinen",
+      "frameDepthMm": 145,
+      "rwClass": "",
+      "quantity": 2,
+      "co2Savings": 10,
+      "status": "available"
+    },
+    {
+      "id": "inv-008",
+      "propertyId": "1",
+      "propertyName": "Paloheinä Business Park",
+      "category": "solid",
+      "subtype": "Umpipaneeli",
+      "description": "Kiinteä umpipaneeli",
+      "widthMm": 1200,
+      "heightMm": 3000,
+      "color": "Harmaa",
+      "frameDepthMm": 92,
+      "rwClass": "",
+      "quantity": 9,
+      "co2Savings": 135,
+      "status": "available"
+    },
+    {
+      "id": "inv-009",
+      "propertyId": "6",
+      "propertyName": "Herttoniemi Business Center",
+      "category": "door",
+      "subtype": "Puuovi",
+      "description": "Massiivipuuovi",
+      "widthMm": 900,
+      "heightMm": 2100,
+      "color": "Tammi",
+      "frameDepthMm": 92,
+      "rwClass": "Rw30",
+      "doorKind": "solid",
+      "handing": "right",
+      "quantity": 4,
+      "co2Savings": 100,
+      "status": "available"
+    },
+    {
+      "id": "inv-010",
+      "propertyId": "2",
+      "propertyName": "Vuosaari Technology Center",
+      "category": "glass",
+      "subtype": "Lasi Rw40",
+      "description": "Korkean äänieristyksen lasiseinä",
+      "widthMm": 1400,
+      "heightMm": 2800,
+      "color": "Kirkas",
+      "frameDepthMm": 120,
+      "rwClass": "Rw40",
+      "quantity": 4,
+      "co2Savings": 120,
+      "status": "available"
+    }
+  ],
+  "categories": [
+    { "id": "door", "label": "Ovet", "labelEn": "Doors" },
+    { "id": "glass", "label": "Lasiseinät", "labelEn": "Glass Partitions" },
+    { "id": "solid", "label": "Umpielementit", "labelEn": "Solid Panels" },
+    { "id": "partition", "label": "Väliseinät", "labelEn": "Partition Walls" }
+  ],
+  "doorTypes": [
+    { "id": "OVI-01", "label": "OVI-01" },
+    { "id": "OVI-02", "label": "OVI-02" },
+    { "id": "OVI-03", "label": "OVI-03" }
+  ],
+  "glassTypes": [
+    { "id": "Lasi Rw37", "label": "Lasi Rw37" },
+    { "id": "Lasi Rw40", "label": "Lasi Rw40" },
+    { "id": "Lasi Rw42", "label": "Lasi Rw42" }
+  ],
+  "solidTypes": [
+    { "id": "Gyproc 95", "label": "Gyproc 95" },
+    { "id": "Umpipaneeli", "label": "Umpipaneeli" }
+  ],
+  "partitionTypes": [
+    { "id": "MOVIA", "label": "MOVIA" },
+    { "id": "Gyproc", "label": "Gyproc" }
+  ],
+  "rwClasses": ["Rw30", "Rw37", "Rw40", "Rw42"],
+  "frameDepths": [92, 95, 120, 145],
+  "colors": ["Valkoinen", "Harmaa", "Antrasiitti", "Musta", "Tammi", "Hopea", "Kirkas"],
+  "handings": [
+    { "id": "left", "label": "Vasen" },
+    { "id": "right", "label": "Oikea" },
+    { "id": "universal", "label": "Universaali" }
+  ]
+}
+
+

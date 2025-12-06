@@ -1,0 +1,98 @@
+{
+  "kpiCards": {
+    "co2PerM2": {
+      "value": 42,
+      "unit": "kg",
+      "label": "CO₂ per m²",
+      "trend": -5
+    },
+    "co2Change": {
+      "value": -12,
+      "unit": "%",
+      "label": "CO₂ muutos",
+      "trend": -2
+    },
+    "reusePercentage": {
+      "value": 55,
+      "unit": "%",
+      "label": "Uudelleenkäyttö",
+      "trend": 3
+    },
+    "renovationCost": {
+      "value": 750000,
+      "unit": "€",
+      "label": "Muutosten summa",
+      "trend": 0
+    }
+  },
+  "counters": {
+    "properties": {
+      "value": 12,
+      "label": "Kiinteistöt"
+    },
+    "activeProjects": {
+      "value": 5,
+      "label": "Avoimet projektit"
+    },
+    "clients": {
+      "value": 7,
+      "label": "Asiakkaat"
+    },
+    "inventoryItems": {
+      "value": 400,
+      "label": "Varasto"
+    }
+  },
+  "co2Trend": {
+    "labels": ["Tammi", "Helmi", "Maalis", "Huhti", "Touko", "Kesä", "Heinä", "Elo", "Syys", "Loka", "Marras", "Joulu"],
+    "datasets": [
+      {
+        "label": "CO₂ kg/m²",
+        "data": [65, 62, 58, 55, 52, 50, 48, 47, 45, 44, 43, 42],
+        "borderColor": "#4A7C59",
+        "backgroundColor": "rgba(74, 124, 89, 0.1)"
+      }
+    ]
+  },
+  "co2PerProperty": {
+    "labels": ["Paloheinä", "Vuosaari", "Viikki", "Pasila", "Kalasatama", "Herttoniemi", "Pitäjänmäki", "Ruoholahti"],
+    "datasets": [
+      {
+        "label": "CO₂ tonnia",
+        "data": [52.5, 40.1, 24.8, 38.2, 31.5, 28.9, 22.1, 19.4],
+        "backgroundColor": "#4A7C59"
+      }
+    ]
+  },
+  "topProperties": [
+    { "id": "1", "name": "Paloheinä Business Park", "value": 52.5, "unit": "t CO₂" },
+    { "id": "2", "name": "Vuosaari Technology Center", "value": 40.1, "unit": "t CO₂" },
+    { "id": "3", "name": "Viikki Office Campus", "value": 24.8, "unit": "t CO₂" },
+    { "id": "4", "name": "Pasila Tower", "value": 38.2, "unit": "t CO₂" },
+    { "id": "5", "name": "Kalasatama Hub", "value": 31.5, "unit": "t CO₂" }
+  ],
+  "topProjects": [
+    { "id": "1", "name": "5. krs Wing A", "savings": 1758, "cost": 45000 },
+    { "id": "2", "name": "3. krs Remontti", "savings": 3475, "cost": 815 },
+    { "id": "3", "name": "Aula muutos", "savings": 890, "cost": 12500 },
+    { "id": "4", "name": "2. krs Toimisto", "savings": 1250, "cost": 28000 },
+    { "id": "5", "name": "Kokoustilat", "savings": 650, "cost": 8900 }
+  ],
+  "actions": [
+    { "id": "1", "text": "Suunnittele uusi muutosprojekti", "type": "action" },
+    { "id": "2", "text": "Käytä varasto-elementtejä projektiin X", "type": "suggestion" },
+    { "id": "3", "text": "Avaa asiakasraportti", "type": "action" }
+  ],
+  "inventorySummary": {
+    "totalArea": 1500,
+    "totalValue": 135000,
+    "co2Potential": 5500
+  },
+  "alerts": [
+    { "id": "1", "type": "error", "title": "Korkea purkamisen CO₂", "description": "5. krs, Wing A" },
+    { "id": "2", "type": "warning", "title": "Uudelleenkäyttöindeksi", "description": "Alle tavoitteen" },
+    { "id": "3", "type": "success", "title": "Hyvä trendi", "description": "CO₂ per m² laskenut 5%" }
+  ]
+}
+
+
